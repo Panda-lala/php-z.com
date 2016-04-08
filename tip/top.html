@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>顶部</title>
+		<link rel="stylesheet" href="css/tipbar.css" />
+	</head>
+	<body>
+		<div class="topbar">
+			<div class="topbarbao">
+				<div class="lefttopbar">
+					<ul>
+						<li><a href="">首页</a></li>
+						<li><a href="">首页</a></li>
+						<li><a href="">首页</a></li>
+						<li><a href="">首页</a></li>
+						<li><a href="">首页</a></li>
+						<li><a href="">首页</a></li>
+						<!--<li class="morehover"><span class="more">更多</span>
+							<span class="glyphicontop glyphicon-triangle-bottom" aria-hidden="true"></span>
+						</li>-->
+					</ul>
+				</div>
+				<!--<div class="tabnav">
+					<div class="tab">
+						<ul class="nav__menu">
+							<li><span class="dian">▪</span><a href="">首页</a></li>
+							<li><span class="dian">▪</span><a href="">首页</a></li>
+							<li><span class="dian">▪</span><a href="">首页</a></li>
+						</ul>
+					</div>
+					<div class="linexian"></div>
+					<div class="tab">
+						<ul>
+							<li><span class="dian">▪</span><a href="">首页</a></li>
+							<li><span class="dian">▪</span><a href="">首页</a></li>
+							<li><span class="dian">▪</span><a href="">首页</a></li>
+						</ul>
+					</div>
+				</div>-->
+				<div class="rightopbar">
+					<ul class="nav__menu">
+						<li class="nav__menu-item">
+							<a><img src="img/dog.jpg" class="touxiang"><span class="zname"><a>熊猫LALA</a></span><span class="glyphiconemail glyphicon-envelope" aria-hidden="true"></span></a>
+							<ul class="nav__submenu">
+								<li class="nav__submenu-item">
+									<p>积分:926</p>
+									<p>用户组:发烧级手机控</p>
+									<div class="tabqian">
+										<a href="">设置</a>
+										<a href="">设置</a>
+										<a href="">设置</a>
+										<a href="">设置</a>
+										<a href="">设置</a>
+										<a href="">设置</a>
+										<a href="">设置</a>
+										<a href="">设置</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+			</div>	
+		</div>
+		
+		<div class="footerbar">
+			<div class="footerbarbao">
+				<em></em>
+				<!--<span id="icon-close" class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>-->
+				<i class="cloud1"><img src="img/img_cloud1.png"></i>
+				<i class="cloud2"><img src="img/img_cloud2.png"></i>
+				<i class="plane"><img src="img/img_plane.png"></i>
+				<div class="rightlogin">
+					<div class="icon-open"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></div>
+					<div class="rlogin"><a href="">登录</a></div>
+					<div class="rregister"><a href="">急速注册</a></div>
+					<div id="icon-close" class="closed"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="jquery-1.11.0.js"></script>
+		<script>
+			$(function(){
+				$("#icon-close").bind("click",function(){
+  					 $(".footerbar").animate({left:'96%'});
+  					 $(".cloud1,.cloud2,.plane").hide();
+  					 $(".icon-open").show();
+				});
+				$(".icon-open").bind("click",function(){
+					 $(".cloud1,.cloud2,.plane").show();
+					 $(".footerbar").animate({left:'0'});
+					 $(".icon-open").hide();
+				});
+				
+			})
+		</script>
+	</body>
+</html>

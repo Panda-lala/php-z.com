@@ -1,0 +1,242 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+body{
+	background-color: #f5f5f5;
+}
+.tishibg{
+	height: 40px;
+	background-color: #fff391;
+	width: 100%;
+}
+.tishi{
+	padding: 0 15px;
+}
+.tishi-text-button{
+	float: left;
+	color: #fe345f;
+}
+span.t1{
+	height: 40px;
+  	line-height: 40px;
+  	padding-right: 10px;
+}
+span.t2{
+	border: 1px solid #fe345f;
+	padding: 3px;
+	border-radius: 5px;
+}
+.t2 a{
+	color: #fe345f;
+	padding: 4px;
+}
+.tishi-close{
+	float: right;
+	height: 40px;
+  	line-height: 40px;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	color: #fe345f;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-remove-circle:before {
+  content: "\e088";
+}
+.glyphicon-cog:before {
+  content: "\e019";
+}
+.money-set{
+	width: 100%;
+	height: 155px;
+	background-color: #fe345f;
+}
+.money-set-top{
+	padding: 0 15px;
+  	height: 42px;
+  	line-height: 42px;
+  	clear: both;
+}
+.money-set-1{
+	float: left;
+	font-size: 1.25em;
+	color: #ffffff;
+}
+.money-set-2{
+	float: right;
+}
+.money-set-center {
+    /* width: 76px; */
+  	margin: 0 auto;
+  	height: 45px;
+  	line-height: 45px;
+  	text-align: center;
+  	clear: both;
+}
+span.t3{
+	text-align: center;
+  	display: block;
+  	font-size: 3em;
+  	color: #ffffff;
+}
+.money-bottom{
+	width: 76px;
+  	border: 1px solid #FFFFFF;
+  	margin: 8px auto;
+  	font-size: 1.25em;
+  	border-radius: 5px;
+  	padding: 6px;
+  	text-align: center;
+}
+.money-bottom a{
+	color: #FFFFFF;
+}
+.historical-records{
+	width: 100%;
+	margin-top: 15px;
+	border-top: 1px #e2e2e2 solid;
+	border-bottom: 1px #e2e2e2 solid;
+	height: 109px;
+	background-color: #ffffff;
+}
+.historical-records-title{
+	padding: 0 15px;
+	font-size: 1.25em;
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px #e2e2e2 solid;
+}
+.h1{
+	float: left;
+}
+.h2{
+	float: right;
+}
+.glyphicon-menu-right:before {
+  content: "\e258";
+}
+.jiantou{
+	color: #bbbbbb;
+	padding-left: 8px;
+	padding-top: 2px;
+}
+.red-bao {
+  width: 100%;
+  height: 58px;
+  background-color: #FFFFFF;
+}
+.red-money-total {
+	  width: 100%;
+	  display: block;
+}
+.zt1 {
+  width: 33%;
+  text-align: center;
+ float: left;
+ display: block;
+}
+.s1 {
+  color: #7f7f7f;
+}
+.s2 {
+ height: 25px;
+}
+.historybg{
+	padding: 10px 0;
+}
+.saoma {
+  position: relative;
+  margin-top: -58px;
+  background-color: #ffffff;
+  text-align: center;
+  color: #d9d9d9;
+  height: 58px;
+  line-height: 58px;
+  clear: both;
+  border-top: 1px solid #e2e2e2;
+}
+.saoma{
+	font-size: 1.125em;
+	color: #eea508;
+}
+.saoma span{
+	padding-left: 10px;
+}
+/*选择充值套餐*/
+.memberbg{
+	width: 100%;
+}
+.mbg{
+	padding: 15px;
+}
+.memberbg-img{
+	background-image: url(../images/vipbg.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%; 
+	padding: 20px;
+	height: 90px;
+}
+.m1{
+	font-size: 1em;
+	height: 26px;
+	color: #fe4566;
+}
+.m2{
+	font-size: 1.8em;
+	height: 41px;
+	color: #fe4566;
+}
+.m3{
+	font-size: 1em;
+	height: 40px;
+	color: #fe4566;
+}
+.shurujine{
+	margin: 25px 18px 0 18px;
+}
+.shurujine-text{
+	float: left;
+	width: 140px;
+	color: #616161;
+	font-size: 0.95em;
+	padding-top: 16px;
+	display: inline-block;
+}
+.shurujine-select{
+	display: block;
+    padding-left: 140px;
+}
+select{
+	border: 1px solid #c7c7c7;
+	border-radius: 4px;
+	color: #c7c7c7;
+	width: 100%;
+	text-align: center;
+	height: 40px;
+	padding: 6px;
+	display: block;
+}
+a.zhidaole{
+	font-size: 0.95em;
+	color: #fe345f;
+	text-align: center;
+	display: block;
+	padding: 10px 0;
+}
+.tcolor{
+	color: #555555;
+}

@@ -1,0 +1,517 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing:antialiased;
+}
+html {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+.topbar {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-family: arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
+	/*background: url(/template/yeei_dream1/css/yeei/img/footbar_btn_red.png) no-  repeat;
+	background-image:linear-gradient(to bottom,#FC6E51, #FF645F);*/
+	background:rgba(0,0,0,0.67);
+	background-size: 100% 100%;
+	position:fixed;
+	top:0;
+	z-index:1030;
+}
+.topbarbao {
+	width: 1084px;
+	margin: 0 auto;
+}
+.topbarbao ul{
+	float: right;
+	list-style: none;
+	padding-left: 0;
+  	margin-top: 0;
+  	margin-bottom: 0;
+}
+li {
+	list-style: none;
+}
+.lefttopbar {
+	float: left;
+}
+.lefttopbar .more{ padding-left: 12px;}
+.topbar li {
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+.nav__menu-item {
+  display: inline-block;
+  position: relative;
+}
+.lefttopbar a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #FEF6F6;
+	display: block;
+	float: left;
+	padding: 0 17px;
+	text-align: center;
+}
+.lefttopbar a:hover {
+	background-color: #E76464;
+	height: 50px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #FEF6F6;
+	display: block;
+	float: left;
+	padding: 0 17px;
+	text-align: center;
+}
+.more:hover{
+	color: #E76464;
+	cursor: pointer;
+}
+.rightopbar {
+	float: right;
+}
+.rightopbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+.footerbar {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background-image: linear-gradient(to bottom, #95DAC9, #4CB098);
+}
+.footerbarbao {
+	width: 100%;
+	margin: 0 auto;
+}
+.footerbarbao em {
+	width: 420px;
+	background: url(/template/yeei_dream1/css/yeei/img/foot3.png);
+	background-size: 100% 100%;
+	height: 160px;
+	display: block;
+	position: absolute;
+	bottom: 80px;
+	left:61px;
+}
+.rightlogin {
+	float: right;
+	margin-right:16%;
+}
+.rlogin {
+	width: 200px;
+	float: left;
+	font-size: 22px;
+	color: #FEFFFF;
+	height: 80px;
+	line-height: 80px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #5BB39E;
+}
+.footerbar a{text-decoration: none;color: #FEFFFF;}
+.rlogin a:hover{
+	width: 200px;
+	height: 80px;
+	font-size: 22px;
+	color: #FEFFFF;
+	background-color: #019875;
+	display: block;
+}
+.rregister {
+	width: 200px;
+	float: left;
+	font-size: 22px;
+	color: #FEFFFF;
+	height: 80px;
+	line-height: 80px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #E86F6E;
+}
+.rregister a:hover{
+	width: 200px;
+	height: 80px;
+	font-size: 22px;
+	color: #FEFFFF;
+	background-color: #E66463;
+	display: block;
+}
+/*飞机动画*/
+.plane{
+	position: absolute;
+	right:  8%;
+	bottom: 80px;
+	-webkit-animation: plane 30s ease-in 16s infinite;
+	-ms-animation: plane 30s ease-in 16s infinite;
+	-moz-animation: plane 30s ease-in 16s infinite;
+	animation: plane 30s ease-in 16s infinite;
+}
+@-webkit-keyframes plane{
+	from{
+		right: 8%;
+	}
+	to{
+		right: 200%;
+	}
+}
+@-moz-keyframes plane{
+	from{
+		right: 8%;
+	}
+	to{
+		right: 200%;
+	}
+}
+@-ms-keyframes plane{
+	from{
+		right: 8%;
+	}
+	to{
+		right: 200%;
+	}
+}
+@keyframes plane{
+	from{
+		right: 8%;
+	}
+	to{
+		right: 200%;
+	}
+}
+/*飞机动画结束*/
+/*云彩1动画*/
+.cloud1{
+	position: absolute;
+	right:  40%;
+	bottom: 80px;
+	-webkit-animation: cloud1 60s ease-in 2s infinite;
+	-ms-animation: cloud1 60s ease-in 2s infinite;
+	-moz-animation: cloud1 60s ease-in 2s infinite;
+	animation:cloud1 60s ease-in 2s infinite;
+}
+@-webkit-keyframes cloud1{
+	from{
+		right: 40%;
+	}
+	to{
+		right: 200%;
+	}
+}
+@-moz-keyframes cloud1{
+	from{
+		right: 40%;
+	}
+	to{
+		right: 200%;
+	}
+}
+@-ms-keyframes cloud1{
+	from{
+		right: 40%;
+	}
+	to{
+		right: 200%;
+	}
+}
+@keyframes cloud1{
+	from{
+		right: 40%;
+	}
+	to{
+		right: 200%;
+	}
+}
+/*云彩动画2*/
+.cloud2{
+	position: absolute;
+	right:  40%;
+	bottom: 150px;
+	-webkit-animation:  cloud2 60s ease-in 2s infinite;
+	-ms-animation:  cloud2 60s ease-in 2s infinite;
+	-moz-animation:  cloud2 60s ease-in 2s infinite;
+	animation: cloud2 60s ease-in 2s infinite;
+}
+@-webkit-keyframes cloud2{
+	0%{
+		right: 40%;
+	}
+	20%{
+		right: 60%;
+	}
+	40%{
+		right: 70%;
+	}
+	100%{
+		right: 70%;
+	}
+}
+@-moz-keyframes cloud2{
+	0%{
+		right: 40%;
+	}
+	20%{
+		right: 60%;
+	}
+	40%{
+		right: 70%;
+	}
+	100%{
+		right: 70%;
+	}
+}
+@-ms-keyframes cloud2{
+	0%{
+		right: 40%;
+	}
+	20%{
+		right: 60%;
+	}
+	40%{
+		right: 70%;
+	}
+	100%{
+		right: 70%;
+	}
+}
+@keyframes cloud2{
+	0%{
+		right: 40%;
+	}
+	20%{
+		right: 60%;
+	}
+	40%{
+		right: 70%;
+	}
+	100%{
+		right: 70%;
+	}		
+}
+/*关闭小飞机登陆注册快捷通道*/
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicontop {
+  float: right;
+  right: 12px;
+  padding-top: 18px;
+  padding-left: 12px;
+  top: -120px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 16px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphiconemail {
+  float: right;
+  right: 12px;
+  padding-top: 18px;
+  padding-left: 2px;
+  top: -120px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 16px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon {
+  position: relative;
+  float: right;
+  right: 12px;
+  top: -120px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 26px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-animation: mname 1s infinite;
+  -ms-animation: mname 1s infinite;
+  -moz-animation:mname 1s infinite;
+   animation:mname 1s infinite;
+}
+
+.glyphicon-remove:before {
+  content: "\e014";
+}
+.glyphicon-remove-sign:before {
+  content: "\e083";
+}
+.glyphicon-menu-right:before {
+  content: "\e258";
+}
+.glyphicon-menu-left:before {
+  content: "\e257";
+}
+/*三角*/
+.glyphicon-triangle-bottom:before {
+  content: "\e252";
+}
+.glyphicon-envelope:before {
+  content: "\2709";
+}
+.icon-open{
+ position: absolute;
+ left: 30px;
+ top: 150px;
+ display: none;
+}
+.closed{
+ position: absolute;
+  right: 10px;
+  top: 150px;
+}
+@-webkit-keyframes mname{
+	from{
+		color: #FFFFFF;
+	}
+	to{
+		
+		color: #E86F6E;
+	}
+}
+.tabnav{
+	height: 200px;
+	background-color: #fff;
+	margin-top: 50px;
+	float: left;
+	border: 1px solid #E6E6E6;
+	font-size: 14px;
+	display: none;
+	position: relative;
+  	right: 130px;
+}
+.tab{
+	float: left;
+	width: 120px;
+	height: 190px;
+	margin-top: 20px;
+}
+.tab li{
+	text-align: center;
+	width: 120px;
+	color: #333;
+	height: 30px;
+	line-height: 30px;
+
+}
+.tab a{
+	color: #333 !important;
+}
+.linexian{
+	width: 1px;
+  border-right: 1px solid #d7d7d7;
+  float: left;
+  height: 160px;
+  margin: 20px 0;
+}
+.dian{
+	float: left;
+	display: block;
+	padding-left: 28px;
+	
+}
+/*头像*/
+.touxiang{
+  width: 36px;
+  height: 36px;
+  display: block;
+  border-radius: 20px;
+  margin-top: 6px;
+  float: left;
+}
+.zname{
+  color: #FFFFFF;
+  float: left;
+  display: block;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.righttab{
+	width: 200px;
+	height: 200px;
+	margin-top: 52px;
+	background-color: #333333;
+}
+.nav__menu {
+  line-height: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.nav__menu-item {
+  display: inline-block;
+  position: relative;
+}
+.nav__menu-item:hover .nav__submenu {
+  display: block;
+}
+.nav__submenu {
+  font-weight: 300;
+  text-transform: none;
+  display:none;
+  position: absolute;
+  width: 220px;
+  margin-top: 6px;
+  background-color: #333333;
+}
+.nav__submenu-item:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.nav__submenu-item p{
+  font-size: 12px;
+  color: #FFFFFF;
+  height: 24px;
+  line-height: 24px;
+  padding-left: 14px;
+  text-align: left;
+  padding-top: 8px;
+}
+.tabqian {
+  margin-top: 8px;
+  padding-top: 6px;
+  border-top: 1px solid #424242;
+}
+.tabqian a {
+  float: left;
+  padding: 0 12px;
+  margin: 5px 0 6px 19px;
+  line-height: 26px;
+  background-color: #444444;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.tabqian a:hover {
+  float: left;
+  padding: 0 12px;
+  margin: 5px 0 6px 19px;
+  line-height: 26px;
+  background-color: #019875;
+  font-size: 12px;
+  color: #FFFFFF;
+}
